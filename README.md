@@ -167,13 +167,23 @@ public class MainActivity extends AppCompatActivity {
 
 7) Проверяем работоспособность приложения:
 
+Добавляем сотрудника Lev 
+
 ![image](https://user-images.githubusercontent.com/73265867/143866385-5fdc6cb2-7996-4258-b88d-fa873451ed20.png)
+
+Сохраняем сотрудника Lev
 
 ![image](https://user-images.githubusercontent.com/73265867/143866409-9d35d0b8-8e50-4797-834b-298d60f205be.png)
 
+Добавляем сотрудника Danul и сразу его сохраняем
+
 ![image](https://user-images.githubusercontent.com/73265867/143866667-f03e372d-279d-4d69-8e3f-fc95bf4ca81d.png)
 
+Добавляем сотрудника Andrew но не сохраняем его
+
 ![image](https://user-images.githubusercontent.com/73265867/143866809-b43a7829-1ffd-4a0a-8a46-ec9ebf3817c2.png)
+
+Открываем и видим сохраненых сотрудников Lev и Danil, программа работает))
 
 ![image](https://user-images.githubusercontent.com/73265867/143866823-aa36ce8d-fffe-4de0-9f74-2e70e2893855.png)
 
