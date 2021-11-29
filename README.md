@@ -183,7 +183,7 @@ public class MainActivity extends AppCompatActivity {
 
 ![image](https://user-images.githubusercontent.com/73265867/143866809-b43a7829-1ffd-4a0a-8a46-ec9ebf3817c2.png)
 
-Открываем и видим сохраненых сотрудников Lev и Danil, программа работает))
+Нажимаем кнопку "Открыть" и видим сохраненых сотрудников Lev и Danil, программа работает))
 
 ![image](https://user-images.githubusercontent.com/73265867/143866823-aa36ce8d-fffe-4de0-9f74-2e70e2893855.png)
 
