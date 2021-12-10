@@ -41,7 +41,7 @@ public class JSONHelper {
 
             Gson gson = new Gson();
             DataItems dataItems = gson.fromJson(streamReader, DataItems.class);
-            return  dataItems.getPets();
+            return  dataItems.getEmployees();
         }
         catch (IOException ex){
             ex.printStackTrace();
@@ -51,13 +51,13 @@ public class JSONHelper {
     }
 
     private static class DataItems {
-        private List<Employees> pets;
+        private List<Employees> employees;
 
-        List<Employees> getPets() {
-            return pets;
+        List<Employees> getEmployees() {
+            return employees;
         }
-        void setPets(List<Employees> pets) {
-            this.pets = pets;
+        void setEmployees(List<Employees> employees) {
+            this.employees = employees;
         }
     }
 }
@@ -91,7 +91,7 @@ public class Employees {
     public String getWorkingposition() {
         return workingposition;
     }
-    public void setWorkingposition(String breed) {
+    public void setWorkingposition(String workingposition) {
         this.workingposition = workingposition;
     }
 
